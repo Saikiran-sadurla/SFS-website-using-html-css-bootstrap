@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>STAY FIT STUDIO</title>
+  <!-- to create icon for title -->
+  <link rel="icon" href="images/icon.png">
+  <!-- ading external css file  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- link for bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!--links for java script, that we discuss further-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- link for google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+  <!-- link for getting apple and android symbols-->
+  <script src="https://kit.fontawesome.com/ff2bf8c61b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- creating multiple sections -->
+  <section id="title">
+    <div>
+      <!-- navbar from bootstrap to create naviation bar at the top -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <!-- for logo name and brand name at the top-->
+        <a class="navbar-brand" href=""><img src="images/icon.png" alt="logo" width="65" height="75" class="d-inline-block align-test-top">
+          STAY FIT STUDIO</a>
+
+        <!-- for creating navigation bars at the top
+    bg-dark > for dark background color
+    navbar-expand-lg > to expand nav area
+    ms-auto > shift all nav bars to left of page
+    fixed-top > to be at same place which scrolling the page
+    toggle>for drop down box , when site used in mobiles
+    -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- toggler means creating dropdown box if the site viewed in the small screens  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- ms-auto > shift all nav bars to left of page-->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+    <!-- container fluid to have 100% width on the website-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-mg-6 col-sg-12 same">
+          <!-- co-lg-6 means columns are divided in to 12/6 when viewed in large screens -->
+          <!-- class same is kept by me to move text into center-->
+          <h1 class="temp">Excuses Don't Burn Calories, SFS will.</h1>
+          <button class="btn btn-dark btn-lg btn btn-outline-light down" type="button"><i class="fab fa-apple"></i> Download</button> &nbsp&nbsp&nbsp
+          <!-- class down is kept by me to move buttons -->
+          <button class="btn btn-outline-light btn-lg btn btn-secondary down" type="button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6 col-mg-6 col-sg-12 pic">
+          <!-- class pic is kept by me to move pic into corner-->
+          <img class="home" src="images/gym.jpg" alt="iphone-gym">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-3">
+        <h3><i class="fas fa-dumbbell"></i> Workout</h3>
+        <p>For Core Strength, Full body strength, Muscle Gain, Mobility, Endurance & Stamina</p>
+      </div>
+      <div class="feature-box col-lg-3">
+        <h3><i class="fas fa-walking"></i> Yoga</h3>
+        <p>For Flexibility, Stress, reduction Mental & Emotional Well Being</p>
+      </div>
+      <div class="feature-box col-lg-3">
+        <h3> &#129354; Boxing</h3>
+        <p>For Fat burn, Learn boxing, Stamina, Core strength</p>
+      </div>
+      <div class="feature-box col-lg-3">
+        <h3>&#128131; Dance Fitness</h3>
+        <p>For Stress reduction, Calorie Burning, Cardiovascular endurance</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonials-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="nfat">The National Fitness Awards 2019</h2>
+          <img class="nfa19" src="images/nfa19.jpg" alt="nfa19"><br>
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="nfat">The National Fitness Awards 2017</h2>
+          <img class="nfa17" src="images/nfa17.jpg" alt="nfa17"><br>
+          <em>Long Beach, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="nfat">The National Fitness Awards 2015</h2>
+          <img class="nfa17" src="images/nfa 2015.jpg" alt="nfa15"><br>
+          <em>Plattsburgh, New York</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+
+    </div>
+
+
+
+
+  </section>
+
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricedis1">A Plan for Everyone can afford</h2>
+    <p class="pricedis2">Simple and affordable price plans for your body</p>
+    <h3 class="pricedis3">Find your best Package</h3>
+
+    <div class="row mix">
+      <div class="col-lg-3 col-mg-4 col-sg-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bronze</h3>
+          </div>
+          <div class="card-body">
+            <h2>$30 / mo</h2>
+            <p>Extra $10 for Membership</p>
+            <button class="btn btn-outline-secondary" type="button">Enroll</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-mg-4 col-sg-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Silver</h3>
+          </div>
+          <div class="card-body">
+            <h2>$90 / 3mo</h2>
+            <p>Extra 15 days Free</p>
+            <button class="btn btn-outline-secondary" type="button">Enroll</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-mg-4 col-sg-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Gold</h3>
+          </div>
+          <div class="card-body">
+            <h2>$150 / 6mo</h2>
+            <p>Extra 30 days Free</p>
+            <button class="btn btn-outline-secondary" type="button">Enroll</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-mg-4 col-sg-6">
+        <div class="card">
+
+          <div class="card-header">
+            <h3>Elite</h3>
+          </div>
+          <div class="card-body">
+            <h2>$250 / 1yr</h2>
+            <p>Extra 45 days Free</p>
+            <button class="btn btn-outline-secondary" type="button">Enroll</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <img src="images/icon.png" alt="logo">
+    <h3>To Enquiry</h3>
+    <button class="btn btn-outline-secondary" type="button">Contact</button>
+    <button class="btn btn-outline-secondary" type="button">Mail</button>
+</section>
+
+<section id="end">
+    <h1><i class="fab fa-instagram"></i> <i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i></h1>
+    <p>© Copyright 2021 STAY FIT STUDIO</p>
+
+
+</section>
+
+</body>
+
+</html>

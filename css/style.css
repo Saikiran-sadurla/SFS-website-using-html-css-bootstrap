@@ -1,0 +1,99 @@
+.temp{
+  font-family: 'Montserrat, sans-serif';  font-size: 3.5rem;  line-height: 1.5;  font-weight: 900;
+  color: #345B63;
+}
+
+#title{
+  background-color: #D4ECDD;
+}
+
+body{
+  font-family: 'Montserrat, sans-serif';
+}
+.same{
+  padding-top: 12rem;
+}
+.down{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.home{
+  width:105%;
+  border-radius:0 0 0 15px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* features*/
+
+#features{
+  padding: 8% 10%;
+
+}
+
+.feature-box{
+  text-align: center;
+}
+
+/*testimonials*/
+#testimonials{
+  color: #345B63;
+  padding: 8% 10%;
+  text-align: center;
+  background-color: #D4ECDD;
+}
+.nfat{
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3.5rem;
+}
+.nfa19{
+  padding-top: 20px;
+  height:25%;
+  width:40%;
+}
+.nfa17{
+  padding-top: 20px;
+  height:35%;
+  width:40%;
+}
+/*pricing*/
+
+#pricing{
+  padding-bottom: 40px;
+}
+.pricedis1{
+  text-align: center;
+  margin-top: 40px;
+
+}
+.pricedis2{
+  text-align: center;
+
+
+}
+.pricedis3{
+  text-align: center;
+  margin-bottom: 40px;
+
+
+}
+.mix{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#cta{
+  background-color: #D4ECDD;
+  text-align: center;
+}
+
+#end{
+  text-align: center;
+  margin-top: 20px;
+}
